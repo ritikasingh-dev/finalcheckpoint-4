@@ -293,7 +293,7 @@ justify-content: space-between;
   
   .drop-down {
     position: relative;
-    display: inline-block;
+    display: inline-block;;
   }
   .drop-down2 {
     position: relative;
