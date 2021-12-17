@@ -13,64 +13,91 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <div class="container flex justify-between align-center nav padding">
-                <a class="brand" href="#">flexor</a>
-                <nav>
-                    <ul class="flex nav-menu">
-                        <li class="nav-menu-item ">
-                            <a class="active-text"  href="#">home</a>
-                        </li>
-                        <li class="nav-menu-item">
-                            <a href="#">about</a>
-                        </li>
-                        <li class="nav-menu-item">
+        <header id="top" class="header container padding nav-main sm-container">            
+            <div class="flex  align-center header-style justify-between">
+                <div class="flex-50 font-size-5rem flex-70-med">
+                    <a class="brand" href="index.html">flexor</a>
+                </div>
+                <div class="flex-50 ">
+                    <label class="bars" for="toggle">
+                        <i class="bars fas fa-bars" aria-hidden="true"></i>
+                    </label>
+                    <input id="toggle" type="checkbox">
+                    <nav class="nav-bar ">
+                        <ul class="flex justify-between text-capitalise sm-margin-top sm-column">
+                          <li class="nav-font-size">
+                            <a class="color-primary" href="index.html">home</a>
+                          </li>
+                          <li class="nav-font-size ">
+                            <a  href="#">about</a>
+                          </li>
+                          <li class="nav-font-size">
                             <a href="#">services</a>
-                        </li>
-                        <li class="nav-menu-item">
+                          </li>
+                          <li class="nav-font-size">
                             <a href="#">portfolio</a>
-                        </li>
-                        <li class="nav-menu-item">
+                          </li>
+                          <li class="nav-font-size">
                             <a href="#">team</a>
-                        </li>
-                        <li class="nav-menu-item">
+                          </li>
+                          <li class="nav-font-size">
                             <a href="#">pricing</a>
-                        </li>
-                        <li class="nav-menu-item">
-                            <a href="#">blog</a>
-                        </li>
-                        <li class="flex align-center drop-down nav-menu-item">
-                            <a href="#">dropdown</a>
+                          </li>
+                          <li class="nav-font-size">
+                            <a href="blog.html">blog</a>
+                          </li>
+                          <!-- <li class="sub-menu-box  nav-font-size"> -->
+                            <div class="drop-down nav-font-size">
+                              <button class="drop-btn">dropdown  <i class="fas fa-chevron-down" aria-hidden="true"></i></button>    
+                              <ul class="dropdown-content">
+                                
+                                  <a href="#">Drop Down 1</a>
+                             
+                                <li class="main-list sub-sub-menu-box">
+                                  <a class="flex drop-down-2" href="#">
+                                    <span> drop down 2</span>
+              
+                                    <i class="margin-left fas fa-chevron-right" aria-hidden="true"></i>
+                                  </a>
+                                  <ul class="sub-sub-menu">
+                                    <li>
+                                      <a href="#">Drop Down</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Drop Down</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Drop Down</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Drop Down</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Drop Down</a>
+                                    </li>
+                                  </ul>
+                                </li>
+                               
+                                  <a href="#">Drop Down 3</a>
+                               
+                                
+                                  <a href="#">Drop Down 4</a>
                             
-                            <i class="fas fa-caret-down">
-                                <ul class="sub-menu">
-                                    <li class="sub-menu-box">
-                                        <a href="#">drop-down 1</a>
-                                    </li>
-                                    <li class="sub-menu-box">
-                                        <a href="#">drop-down 2</a>
-                                    </li>
-                                    <li class="sub-menu-box">
-                                        <a href="#">drop-down 3</a>
-                                    </li>
-                                    <li class="sub-menu-box">
-                                        <a href="#">drop-down 4</a>
-                                    </li>
-                                    <li class="sub-menu-box">
-                                        <a href="#">drop-down 5</a>
-                                    </li>
-                                </ul>
-                            </i>
                             
-                        </li>
-                        <li class="nav-menu-item">
+                                  <a href="#">Drop Down 5</a>
+                                </li>
+                              </ul>
+                            </div>               
+                           
+                          <!-- </li> -->
+                          <li>
                             <a href="#">contact</a>
-                        </li>
-        
-                    </ul>
-                </nav>
+                          </li>
+                        </ul>
+                      </nav>
+                </div>                 
             </div>
-        </header>
+    </header>
         <section class="blog-sec">
             <div class="container padding ">
                 <h3> <strong class="active--text">home</strong> /blog</h3>
@@ -264,9 +291,9 @@
                         <div class="subscribe center">
                             
                         </div>
-                        <div class="circle-subs subs-left center">
+                        <!-- <div class="circle-subs subs-left center">
                             <p>subscribe</p>
-                        </div>
+                        </div> -->
                     </div>                
                 </div>
 

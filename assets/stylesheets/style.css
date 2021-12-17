@@ -232,9 +232,7 @@ input , button {
 
 body {font-family: 'Raleway', sans-serif;}
 
-.active {
-    color: var(--orange-primary);
-}
+
 /* header */
 .header {
     padding: 2rem 0;
@@ -267,21 +265,83 @@ justify-content: space-between;
 .active a {
     color: var(--orange-primary);
 }
-.nav-bar a:hover {
+ .nav-bar a:hover {
+    color: var(--orange-primary);
+} 
+ .color-primary {
     color: var(--orange-primary);
 }
-.drop-down i{
+/* .drop-down i{
     background-color: #fff;
     color:rgb(137,123,127);
     margin-left: 0.4rem;
 
+} */
+/* dropdownn */
+.drop-btn {
+    font-weight: bold;
+    color: var(--brown);
+    font-size: 1rem;
+    text-transform: capitalize;
 }
-.sub-menu {
+.drop-btn2 {
+    font-weight: bold;
+    color: var(--brown);
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+  
+  .drop-down {
+    position: relative;
+    display: inline-block;
+  }
+  .drop-down2 {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  .drop-down:hover .dropdown-content {display: block;}
+  .drop-down:hover .drop-btn {background-color: var(--orange-primary);}
+
+  .dropdown-content2 a:hover {background-color: #ddd;}
+  .drop-down2:hover .dropdown-content2 {display: block;
+    margin-left: 3rem;}
+  .drop-down2:hover .drop-btn2 {background-color: var(--orange-primary);
+color: black;}
+/* .sub-menu {
     position: absolute;
     background-color: #fff;
     box-shadow: 0 3 8 rgba(0,0,0,0.3);
-}
-.sub-menu-box {
+} */
+/* .sub-menu-box {
     position: relative;
     width: 7rem;
     text-align: center;
@@ -290,13 +350,13 @@ justify-content: space-between;
     transform: translate(-50%);
     display: none;
     top: 8rem;
-}
-#toggle:checked~.nav {
+} */
+/* #toggle:checked~.nav {
     display: inline-block;
-}
-.sub-menu-box :hover .submenu {
+} */
+/* .sub-menu-box :hover .submenu {
     display: inline-block;
-}
+} */
 /* HERO SEC */
 .hero {
     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../media/hero-bg.jpg);
@@ -372,7 +432,7 @@ justify-content: space-between;
 }
 /* bigbox btn */
 .start-button:hover {
-    background-color: var(--orange-primaryprimary);
+    background-color: var(--orange-primary);
 }
 .start-button {
     background-color: var(--orange-primary);
@@ -1293,9 +1353,10 @@ textarea {
     font-size: 0.8rem;
     text-transform: capitalize;
     padding: 1rem;
-    margin-left: 19rem;
     margin-bottom: 1rem;
+    margin-left: 16rem;
 }
+
 .block-redirect {
     width: 3.5rem;
     height: 3rem;
@@ -1495,6 +1556,9 @@ textarea {
         font-size: 2rem;
         color: var(--orange-primary);
         display: inline-block;
+    }
+    .padding-small {
+        padding: 1rem;
     }
 }
 
