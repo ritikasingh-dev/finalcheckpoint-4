@@ -181,7 +181,7 @@
         
     </section>
     <!-- about sec -->
-    <section id="about" class="about-sec container padding width-full padding-med  container-med padding-small">
+    <section id="about" class="about-sec container  padding-med  container-med padding-small padding">
         <div class=" flex justify-between flex-wrap-med flex-100-med">
             
                 <div class="about-video flex-40 flex-100-med">
@@ -197,32 +197,34 @@
                     <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatibus eveniet repellendus natus tempore voluptas dignissimos sed tempora ab quasi doloribus soluta fugit ad quas, ratione, nostrum deleniti, quam distinctio!</p>
                 </div>
-                <div class="about-rows flex justify-between align-center">
-                    <div class="flex-column">
-                        <div class="white-circle center flex-12 margin-tb">
+                <div class="about-rows flex-column justify-between align-center">
+                    <div class="flex hover-about">
+                        <div class="white-circle center flex-14 margin-tb">
                             <i class="fas fa-fingerprint"></i>          
                         </div>
-                        <div class="white-circle center flex-12 margin-tb">
-                            <i class="fas fa-gift"></i>        
-                        </div>
-                        <div class="white-circle center flex-12 margin-tb">
-                            <i class="fas fa-atom"></i>       
+                        <div class="flex-column flex-70 margin-tblr">
+                            <h4>lorem ipsum</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elits reprehenderit est at animi sapiente. Lorem ipsum dolor sit amet consectetur adipisicing el</p>
                         </div>
                     </div>
-                    <div class="flex-column">
-                        <div class="flex-column flex-70 margin-tblr">
-                            <h4>lorem ipsum</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elits reprehenderit est at animi sapiente. Lorem ipsum dolor sit amet consectetur adipisicing el</p>
+                    <div class="flex">
+                        <div class="white-circle center flex-14 margin-tb">
+                            <i class="fas fa-gift"></i>        
                         </div>
                         <div class="flex-column flex-70 margin-tblr">
                             <h4>lorem ipsum</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elits reprehenderit est at animi sapiente. Lorem ipsum dolor sit amet consectetur adipisicing el</p>
                         </div>
+                    </div>
+                    <div class="flex">
+                        <div class="white-circle center flex-14 margin-tb">
+                            <i class="fas fa-atom"></i>       
+                        </div>
                         <div class="flex-column flex-70 margin-tblr">
                             <h4>lorem ipsum</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elits reprehenderit est at animi sapiente. Lorem ipsum dolor sit amet consectetur adipisicing el</p>
                         </div>
-                    </div>                
+                    </div>       
                 </div>
             </div>
         </div>
@@ -407,7 +409,7 @@
         </div>
     </section>
     <!-- portfolio sec -->
-    <section id="portfolio" class="portfolio-sec padding container padding-med  container-med">
+    <section id="portfolio" class="portfolio-sec padding container padding-med container-med">
         <div class="portfolio-text  flex-column text-center">
             <h2>portfolio</h2>
             <p>Lorem ipsum dolor amet consectetur adipisicing elit. Alias amet offi sit amet consectetur adipisicing elit. Alias amet officiis ipsam voluptates ipsa, illum asperiores. Quibusdam mollitia cumque porro, dicta ad dolores odio, corporis eius minus excepturi quidem soluta.</p>
@@ -445,7 +447,7 @@
                 </div>
                 <div class="flex-32 flex-50-med flex-100-small">
                     <img class="portfolio-img " src="assets/media/portfolio/portfolio-2.jpg" alt="">
-                    <div class="card flex justify-between">
+                    <!-- <div class="card flex justify-between">
                         <div class="flex-column">
                             <h2>card 3</h2>
                         <h3>card</h3>
@@ -456,7 +458,7 @@
                             <i class="fas fa-link"></i>
                         </div>
     
-                    </div>
+                    </div> -->
                 </div>
                 <div class="flex-32 flex-50-med flex-100-small">
                     <img class="portfolio-img " src="assets/media/portfolio/portfolio-3.jpg" alt="">
@@ -751,17 +753,16 @@
     
     </section>
     <!-- faq sec -->
-    <section class="faq-sec padding container  container-med">
-        <div class="container ">
-            <div class="portfolio-text text-center flex-100-med flex-100-small">
+    <section class="faq-sec padding container  container-med padding-small sm-full-width flex-100-small">
+            <div class="container portfolio-text text-centersm-full-width flex-100-small ">
                 <h2>F.A.Q</h2>
-                <p>
+                <p >
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque eius expedita tenetur dolores consequatur eaque vero fuga iure quod aperiam. Magnam, veritatis esse consectetur explicabo numquam ad recusandae p esse consectetur explicabo numquam ad recusandae porro alias.
                 </p>
             </div>
-            <div class="center">
-                <div class="question-sec">
-                    <div class="question active-question flex">
+            <!-- <div class="center sm-full-width flex-100-small"> -->
+                <div class="question-sec flex-100-small">
+                    <div class="question active-question flex flex-100-small">
                         <div class="flex-100-med flex-wrap-med sm-full-width flex-100-small" >
                             <div class="flex mcq-active-sec ">
                                 <i class="far fa-question-circle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque  tenetur?</i>
@@ -772,7 +773,7 @@
                             </p>
                         </div>                    
                     </div>
-                    <div class="question active-question flex ">
+                    <div class="question active-question flex flex-100-small">
                         <div class="flex-100-med sm-full-width">
                             <div class="flex  justify-between ">
                                 <i class="far fa-question-circle">Lorem ipsum dolor sit, amet consectetur aeius expedita tenetur?</i>
@@ -809,8 +810,8 @@
                     </div>
                   
                 </div>
-            </div>
-            
+            <!-- </div>
+             -->
         </div>
     
     </section>
@@ -869,10 +870,10 @@
                             <input class="form-control center" type="text" id="subject" placeholder="Subject">                                                          
                         </div>
                         <div class="flex flex-100">
-                            <textarea class="form-control center" type="text" id="Message"  rows="10">Message</textarea> 
+                            <textarea class="form-control center" type="text" id="Message"  rows="10" cols="40">Message</textarea> 
                         </div>
                         <div class="text-center">
-                            <input class=" contact-btn " type="submit" value="send message">    
+                            <input class=" contact-btn " type="submit" value="send message">
                         </div>                       
                     </form>
                 </div>
